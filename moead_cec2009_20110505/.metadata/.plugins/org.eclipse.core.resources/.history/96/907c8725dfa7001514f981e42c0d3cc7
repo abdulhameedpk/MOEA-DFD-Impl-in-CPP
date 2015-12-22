@@ -1,0 +1,89 @@
+/*==========================================================================
+//  C++ Implementation of MOEA/D Based on Differential Evolution (DE) for Contest Multiobjective
+//  Problems in CEC2009
+//
+//  Author: Hui Li
+//
+//  See the details of MOEA/D-DE and test problems in the following papers
+//
+//  1) H. Li and Q. Zhang, Comparison Between NSGA-II and MOEA/D on a Set of Multiobjective Optimization
+//  Problems with Complicated Pareto Sets, Technical Report CES-476, Department of Computer Science,
+//  University of Essex, 2007
+//
+//  2) H. Li and Q. Zhang, Multiobjective Optimization Problems with Complicated Pareto Sets, MOEA/D and NSGA-II,
+//  IEEE Transaction on Evolutionary Computation, 2008, to appear.
+//
+//  If you have any questions about the codes, please contact
+//  Dr. Hui Li       at   hzl@cs.nott.ac.uk   or
+//  Dr. Qingfu Zhang at   qzhang@essex.ac.uk
+//
+//  Date: 14/NOV/2008
+//
+// ===========================================================================*/
+#include "time.h"
+#include "global.h"
+#include "algorithm.h"
+#include "stdio.h"
+//#include "CMOEADFD.h"
+
+int main(int argc,char *argv[])
+{
+
+
+	int ss;
+
+	for(ss=1; ss<=argc; ss++)
+	{
+
+		// random number init
+		rnd_uni_init = 90.0;
+
+		std::ifstream readf("TestInstance.txt");
+
+
+		int numOfInstance=1;
+		int totalRuns=30;
+		//readf>>numOfInstance;
+
+		printf(" totl test instance are %d",numOfInstance);
+		//printf("-- % Instances are being tested with seed %d---\n", atoi(argv[ss]));
+		printf("--  Instances are being tested with seed %d---\n", ss);
+	//	printf("Hello i m here argc=%d Press any key to continue",argc);
+		//			    getchar();
+
+		for(int inst=1; inst<=numOfInstance; inst++)
+		{
+			// the parameter setting of test instance
+			//readf>>strTestInstance;
+			//readf>>nvar;
+			//readf>>nobj;
+
+
+		strTestInstance[0]='U';
+		strTestInstance[1]='F';
+		strTestInstance[2]='6';
+			nvar=30;
+			nobj=2;
+
+			printf("-- Instance: %s, %d variables %d objectives \n", strTestInstance, nvar, nobj);
+
+			for(int run=1; run<=totalRuns; run++)
+			{
+				printf("Run %d of %d\n", run,totalRuns);
+				/*
+				//CMOEAD MOEAD;
+				MOEAD.load_parameter();
+				MOEAD.exec_emo(run);
+				*/
+
+				CMOEADFD MOEADFD(nobj);
+				MOEADFD.load_parameter();
+				MOEADFD.exec_emo(run);
+			}
+			printf("\n");
+		}
+	}
+
+
+	return 0;
+}

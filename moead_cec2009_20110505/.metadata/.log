@@ -1,0 +1,292 @@
+!SESSION 2011-05-06 16:42:22.244 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_24
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -keyring /Users/Aimin/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -data /Users/Aimin/work/moead/cec09/moead_cec2009_20110505 -product org.eclipse.epp.package.cpp.product -keyring /Users/Aimin/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-05-06 16:42:31.495
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-05-06 16:44:15.297
+!MESSAGE Indexed 'moead_cpp' (2 sources, 179 headers) in 21.97 sec: 15,841 declarations; 29,088 references; 0 unresolved inclusions; 6 syntax errors; 10 unresolved names (0.02%)
+!SESSION 2015-12-10 13:16:43.167 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-10 13:17:26.997
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-12-10 13:19:08.908
+!MESSAGE Indexed 'moead_cpp' (2 sources, 170 headers) in 55.9 sec: 16,040 declarations; 31,124 references; 0 unresolved inclusions; 0 syntax errors; 19 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-12-10 13:59:41.024
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-file-exec-and-symbols "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp"
+Error message from debugger back end:
+"/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:235)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-10 13:59:41.033
+!MESSAGE Failed to execute MI command:
+-file-exec-and-symbols "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp"
+Error message from debugger back end:
+"/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+!STACK 0
+java.lang.Exception: "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-12-10 14:00:32.809
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-file-exec-and-symbols "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp"
+Error message from debugger back end:
+"/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:235)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-10 14:00:32.811
+!MESSAGE Failed to execute MI command:
+-file-exec-and-symbols "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp"
+Error message from debugger back end:
+"/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+!STACK 0
+java.lang.Exception: "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-12-10 14:00:39.755
+!MESSAGE Indexed 'moead_cpp' (2 sources, 170 headers) in 18.2 sec: 16,077 declarations; 31,175 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-12-10 14:01:28.355
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-file-exec-and-symbols "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp"
+Error message from debugger back end:
+"/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:235)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-10 14:01:28.364
+!MESSAGE Failed to execute MI command:
+-file-exec-and-symbols "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp"
+Error message from debugger back end:
+"/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+!STACK 0
+java.lang.Exception: "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2015-12-10 14:01:43.266
+!MESSAGE Error in final launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+-file-exec-and-symbols "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp"
+Error message from debugger back end:
+"/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:111)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:235)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.Exception: "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-10 14:01:43.268
+!MESSAGE Failed to execute MI command:
+-file-exec-and-symbols "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp"
+Error message from debugger back end:
+"/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+!STACK 0
+java.lang.Exception: "/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp": not in executable format: File format not recognized
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+!SESSION 2015-12-14 16:04:45.911 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2015-12-14 16:28:17.503
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@7761e0f2): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-14 16:28:17.503
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2015-12-14 16:28:24.446
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.debug.ui.viewmodel.SteppingController$3@987a66c): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function java.lang.Exception: Cannot find bounds of current function' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2015-12-14 16:28:24.446
+!MESSAGE Failed to execute MI command:
+-exec-next 1
+Error message from debugger back end:
+Cannot find bounds of current function
+!STACK 0
+java.lang.Exception: Cannot find bounds of current function
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:927)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:756)
+!SESSION 2015-12-18 19:16:25.037 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.launch 4 104 2015-12-18 19:38:34.680
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:676)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:129)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:74)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2015-12-18 19:38:34.698
+!MESSAGE /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+!STACK 0
+java.io.FileNotFoundException: /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:676)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:129)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:74)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2015-12-18 19:40:16.059
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:131)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:298)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2015-12-18 19:40:16.059
+!MESSAGE /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+!STACK 0
+java.io.FileNotFoundException: /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:131)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:298)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2015-12-19 12:30:37.666 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-12-19 13:27:44.531
+!MESSAGE Indexed 'moead_cpp' (3 sources, 173 headers) in 7.74 sec: 16,273 declarations; 31,649 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-12-19 13:27:53.253
+!MESSAGE Indexed 'moead_cpp' (3 sources, 173 headers) in 4.01 sec: 16,273 declarations; 31,649 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2015-12-19 13:34:26.992
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:676)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:129)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:74)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2015-12-19 13:34:26.993
+!MESSAGE /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+!STACK 0
+java.io.FileNotFoundException: /home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/moead_cpp not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyProgramPath(AbstractCLaunchDelegate2.java:676)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.checkBinaryDetails(LocalRunLaunchDelegate.java:129)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:74)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-12-19 13:37:14.691
+!MESSAGE Indexed 'moead_cpp' (3 sources, 173 headers) in 3.12 sec: 16,273 declarations; 31,649 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

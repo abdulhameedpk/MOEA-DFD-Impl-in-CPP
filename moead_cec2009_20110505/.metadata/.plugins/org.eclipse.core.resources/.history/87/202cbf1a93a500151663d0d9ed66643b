@@ -1,0 +1,183 @@
+/*
+ * CMOEADFD.cpp
+ *
+ *  Created on: Dec 17, 2015
+ *      Author: abdul
+ */
+
+#include "CMOEADFD.h"
+
+CMOEADFD::CMOEADFD() {
+	// TODO Auto-generated constructor stub
+
+}
+
+CMOEADFD::CMOEADFD(int nObjs) {
+	// TODO Auto-generated constructor stub
+  //super();
+	mu_ij=new double[nObjs];
+	this->nObjs=nObjs;
+	tau=0.0;
+	A=50;
+}
+
+CMOEADFD::~CMOEADFD() {
+	// TODO Auto-generated destructor stub
+}
+
+void CMOEADFD::evol_population()
+{
+
+	// random order of subproblems at each generation
+	//vector<int> order(vector<int>(pops,0));
+	//for(int i=0; i<pops; i++)  order[i] = i;
+	//random_shuffle(order.begin(), order.end());
+
+	vector<int> order;	this->tour_selection(10, order);
+
+    for(int sub=0; sub<order.size(); sub++)
+	{
+
+		int c_sub = order[sub];    // random order
+
+		int type;
+        double rnd = rnd_uni(&rnd_uni_init);
+
+		// mating selection based on probability
+		if(rnd<prob)     type = 1;   // from neighborhood
+		else             type = 2;   // from population
+
+		// select the indexes of mating parents
+		vector<int> plist;
+		mate_selection(plist, c_sub, 2, type);  // neighborhood selection
+
+
+		// produce a child solution
+		CIndividual child;
+		double rate2 = 0.5; //rate + 0.25*(rnd_uni(&rnd_uni_init) - 0.5);
+		diff_evo_xoverB(population[c_sub].indiv,population[plist[0]].indiv,population[plist[1]].indiv, child, rate2);
+		plist.clear();
+
+		// apply polynomial mutation
+		realmutation(child, 1.0/nvar);
+
+		// evaluate the child solution
+		child.obj_eval();
+
+		// update the reference points and other solutions in the neighborhood or the whole population
+		update_reference(child);
+
+//<DFD>
+		int id= c_sub; // id:   the id of current subproblem
+		int size;
+
+		 if(type==1)	size = population[id].table.size();  // from neighborhood
+			else        size = population.size();            // from whole population
+
+		// a random order to update; brought from update_problem method to prevent changes
+		// to i-dominance level
+
+			std::vector<int> perm(std::vector<int>(size, 0));
+			for(int k=0; k<size; k++) perm[k] = k;
+
+			//random_shuffle(perm.begin(), perm.end());
+			// replaced by Aimin 2011.04.29
+			permutation(perm);
+			double prod=1;
+
+			 for (int j = 0; j < perm.size(); j++) { 					// j \in P
+
+				 CIndividual &individ=population[perm[j]];
+				 prod=1;	//reset prod
+
+				 //calculate i-dominance
+				 for (int i = 0; i < nObjs; i++){ // i \in M
+
+					 if(child.y_obj[i] <= individ.y_obj[i])     // f_i(Y) <= f_i(X_j)
+					 	mu_ij[i]=1;
+					 else
+					 	mu_ij[i]= exp(-A*(child.y_obj[i] - individ.y_obj[i])); //exp( -A*(f_i(Y) - f_i(X_j)) )
+
+				 }
+
+				 for(int m=0;m<nObjs;m++){
+				 	prod *= mu_ij[m]; // for(i=1...m) product of i-dominance
+
+				      }
+				 mu_j[j]=prod;
+
+			 }
+			 tau= 0.1*gen/(max_gen);  // update the dominance threshold
+
+//</DFD>
+
+		update_problem(child, c_sub, type, perm);
+
+		nfes++;
+	}
+}
+void CMOEADFD::update_problem(CIndividual &indiv, int &id, int &type, vector<int> &perm)
+{
+	// indiv: child solution
+	// id:   the id of current subproblem
+	// type: update solutions in - neighborhood (1) or whole population (otherwise)
+	int size, time = 0;
+	size = perm.size();
+
+    for(int i=0; i<size; i++)
+	{
+		// Pick a subproblem to update
+		int k;
+		if(type==1) k = population[id].table[perm[i]];
+		else        k = perm[i];
+
+
+		if(mu_j[i] > tau){ 						//fuzzy dominance
+
+			population[k].indiv = indiv; 		// set Xj = Y
+			time++;
+
+		 }  else {									 // Pareto dominance
+
+			 // calculate the values of objective function regarding the current subproblem
+			 		double f1, f2;
+			 f1 = fitnessfunction(population[k].indiv.y_obj, population[k].namda);
+			 f2 = fitnessfunction(indiv.y_obj, population[k].namda);
+
+		if(f2<f1)
+		{
+			population[k].indiv = indiv;
+			time++;
+		}
+			}
+
+		// the maximal number of solutions updated is not allowed to exceed 'limit'
+		if(time>=limit)
+		{
+			return;
+		}
+	}
+	perm.clear();
+}
+
+void CMOEADFD::load_parameter()
+{
+	char filename[1024];
+
+	sprintf(filename,"ParameterSetting/%s.txt", strTestInstance);
+
+	char temp[1024];
+	std::ifstream readf(filename);
+	readf.getline(temp, 1024);
+
+	readf>>pops;
+	readf>>max_gen;
+	readf>>niche;
+	readf>>limit;
+	readf>>prob;
+	mu_j=new double[pops]; // for DFD, dominance array
+
+//	readf>>rate;
+
+	readf.close();
+}

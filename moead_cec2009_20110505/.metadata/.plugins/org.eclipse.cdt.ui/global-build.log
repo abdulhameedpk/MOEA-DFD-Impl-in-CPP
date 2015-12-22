@@ -1,0 +1,1408 @@
+13:31:29 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../CMOEADFD.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CMOEADFD.d" -MT"CMOEADFD.o" -o "CMOEADFD.o" "../CMOEADFD.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../CMOEADFD.h:11,
+                 from ../CMOEADFD.cpp:8:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../CMOEADFD.h:11,
+                 from ../CMOEADFD.cpp:8:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../CMOEADFD.h:11,
+                 from ../CMOEADFD.cpp:8:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+../CMOEADFD.cpp: In member function ‘void CMOEADFD::evol_population()’:
+../CMOEADFD.cpp:38: warning: comparison between signed and unsigned integer expressions
+../CMOEADFD.cpp:88: warning: comparison between signed and unsigned integer expressions
+Finished building: ../CMOEADFD.cpp
+ 
+Building file: ../cec09.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"cec09.d" -MT"cec09.o" -o "cec09.o" "../cec09.cpp"
+../cec09.cpp: In function ‘void CEC09::R2_DTLZ2_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:662: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:667: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:669: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:678: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:680: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:688: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:691: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:711: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:716: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:719: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:725: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:743: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:619: warning: unused variable ‘sum’
+../cec09.cpp: In function ‘void CEC09::R3_DTLZ3_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:795: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:800: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:802: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:811: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:813: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:821: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:824: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:844: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:849: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:852: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:858: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:876: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:751: warning: unused variable ‘sum’
+../cec09.cpp: In function ‘void CEC09::WFG1_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:1107: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1116: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1128: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1134: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1146: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1151: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1164: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1178: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1182: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1192: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1198: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1203: warning: comparison between signed and unsigned integer expressions
+Finished building: ../cec09.cpp
+ 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./CMOEADFD.o ./cec09.o ./moea.o   
+./moea.o: In function `rnd_uni(long*)':
+/usr/include/c++/4.4/new:101: multiple definition of `rnd_uni(long*)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:27: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/usr/include/c++/4.4/new:101: multiple definition of `nvar'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:27: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/usr/include/c++/4.4/new:101: multiple definition of `nobj'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:27: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:35: multiple definition of `lowBound'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:35: first defined here
+./moea.o:(.data+0x0): multiple definition of `uppBound'
+./CMOEADFD.o:(.data+0x0): first defined here
+./moea.o: In function `rnd_uni(long*)':
+(.bss+0x20): multiple definition of `strTestInstance'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:37: first defined here
+./moea.o:(.data+0x8): multiple definition of `seed'
+./CMOEADFD.o:(.data+0x8): first defined here
+./moea.o: In function `rnd_uni(long*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:47: multiple definition of `rnd_uni_init'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:47: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:49: multiple definition of `idealpoint'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:49: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/usr/include/c++/4.4/bits/vector.tcc:321: multiple definition of `scale'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:49: first defined here
+./moea.o:(.data+0xc): multiple definition of `etax'
+./CMOEADFD.o:(.data+0xc): first defined here
+./moea.o:(.data+0x10): multiple definition of `etam'
+./CMOEADFD.o:(.data+0x10): first defined here
+./moea.o: In function `CEC09_F2(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:19: multiple definition of `realx'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:19: first defined here
+./moea.o: In function `CEC09_F2(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:19: multiple definition of `realm'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:19: first defined here
+./moea.o:(.data+0x18): multiple definition of `realb'
+./CMOEADFD.o:(.data+0x18): first defined here
+./moea.o: In function `CEC09_F1(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:9: multiple definition of `CEC09_F1(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:9: first defined here
+./moea.o: In function `CEC09_F2(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:16: multiple definition of `CEC09_F2(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:16: first defined here
+./moea.o: In function `CEC09_F3(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:23: multiple definition of `CEC09_F3(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:23: first defined here
+./moea.o: In function `CEC09_F4(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:28: multiple definition of `CEC09_F4(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:28: first defined here
+./moea.o: In function `CEC09_F5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:35: multiple definition of `CEC09_F5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:35: first defined here
+./moea.o: In function `CEC09_F6(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:42: multiple definition of `CEC09_F6(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:42: first defined here
+./moea.o: In function `CEC09_F7(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:49: multiple definition of `CEC09_F7(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:49: first defined here
+./moea.o: In function `CEC09_F8(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:56: multiple definition of `CEC09_F8(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:56: first defined here
+./moea.o: In function `CEC09_F9(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:63: multiple definition of `CEC09_F9(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:63: first defined here
+./moea.o: In function `CEC09_F10(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:70: multiple definition of `CEC09_F10(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:70: first defined here
+./moea.o: In function `CEC09_R2_DTLZ2_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:80: multiple definition of `CEC09_R2_DTLZ2_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:80: first defined here
+./moea.o: In function `CEC09_R3_DTLZ3_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:92: multiple definition of `CEC09_R3_DTLZ3_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:92: first defined here
+./moea.o: In function `CEC09_WFG1_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:104: multiple definition of `CEC09_WFG1_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:104: first defined here
+./moea.o: In function `CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:28: multiple definition of `CIndividual::CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:28: first defined here
+./moea.o: In function `CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:28: multiple definition of `CIndividual::CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:28: first defined here
+./moea.o: In function `~CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: multiple definition of `CIndividual::~CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: first defined here
+./moea.o: In function `~CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: multiple definition of `CIndividual::~CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: first defined here
+./moea.o: In function `~CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: multiple definition of `CIndividual::~CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: first defined here
+./moea.o: In function `CIndividual::rnd_init()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:41: multiple definition of `CIndividual::rnd_init()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:41: first defined here
+./moea.o: In function `CIndividual::obj_eval()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:48: multiple definition of `CIndividual::obj_eval()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:48: first defined here
+./moea.o: In function `CIndividual::show_objective()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:69: multiple definition of `CIndividual::show_objective()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:69: first defined here
+./moea.o: In function `CIndividual::show_variable()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:76: multiple definition of `CIndividual::show_variable()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:76: first defined here
+./moea.o: In function `CIndividual::operator=(CIndividual const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:83: multiple definition of `CIndividual::operator=(CIndividual const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:83: first defined here
+./moea.o: In function `CIndividual::operator<(CIndividual const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:90: multiple definition of `CIndividual::operator<(CIndividual const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:90: first defined here
+./moea.o: In function `CIndividual::operator<<(CIndividual const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:102: multiple definition of `CIndividual::operator<<(CIndividual const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:102: first defined here
+./moea.o: In function `CIndividual::operator==(CIndividual const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:113: multiple definition of `CIndividual::operator==(CIndividual const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:113: first defined here
+./moea.o: In function `CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:139: multiple definition of `CSubproblem::CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:139: first defined here
+./moea.o: In function `CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:139: multiple definition of `CSubproblem::CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:139: first defined here
+./moea.o: In function `~CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: multiple definition of `CSubproblem::~CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: first defined here
+./moea.o: In function `~CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: multiple definition of `CSubproblem::~CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: first defined here
+./moea.o: In function `~CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: multiple definition of `CSubproblem::~CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: first defined here
+./moea.o: In function `CSubproblem::show()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:148: multiple definition of `CSubproblem::show()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:148: first defined here
+./moea.o: In function `CSubproblem::operator=(CSubproblem const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:157: multiple definition of `CSubproblem::operator=(CSubproblem const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:157: first defined here
+./moea.o: In function `realmutation(CIndividual&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:9: multiple definition of `realmutation(CIndividual&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:9: first defined here
+./moea.o: In function `real_sbx_xoverB(CIndividual&, CIndividual&, CIndividual&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:147: multiple definition of `real_sbx_xoverB(CIndividual&, CIndividual&, CIndividual&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:147: first defined here
+./moea.o: In function `diff_evo_xoverA(CIndividual&, CIndividual&, CIndividual&, CIndividual&, CIndividual&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:236: multiple definition of `diff_evo_xoverA(CIndividual&, CIndividual&, CIndividual&, CIndividual&, CIndividual&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:236: first defined here
+./moea.o: In function `diff_evo_xoverB(CIndividual&, CIndividual&, CIndividual&, CIndividual&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:257: multiple definition of `diff_evo_xoverB(CIndividual&, CIndividual&, CIndividual&, CIndividual&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:257: first defined here
+./moea.o: In function `diff_evo_xoverC(CIndividual&, CIndividual&, CIndividual&, std::vector<double, std::allocator<double> >&, CIndividual&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:295: multiple definition of `diff_evo_xoverC(CIndividual&, CIndividual&, CIndividual&, std::vector<double, std::allocator<double> >&, CIndividual&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:295: first defined here
+./moea.o: In function `minfastsort(std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >&, int, int)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:7: multiple definition of `minfastsort(std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >&, int, int)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:7: first defined here
+./moea.o: In function `dist_vector(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:25: multiple definition of `dist_vector(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:25: first defined here
+./moea.o: In function `dominate(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:34: multiple definition of `dominate(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:34: first defined here
+./moea.o: In function `fitnessfunction(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:47: multiple definition of `fitnessfunction(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:47: first defined here
+./moea.o: In function `load_data(char*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&, int)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:67: multiple definition of `load_data(char*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&, int)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:67: first defined here
+./moea.o: In function `permutation(std::vector<int, std::allocator<int> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:85: multiple definition of `permutation(std::vector<int, std::allocator<int> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:85: first defined here
+./moea.o: In function `CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:56: multiple definition of `CMOEAD::CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:56: first defined here
+./moea.o: In function `CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:56: multiple definition of `CMOEAD::CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:56: first defined here
+./moea.o: In function `~CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: multiple definition of `CMOEAD::~CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: first defined here
+./moea.o: In function `~CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: multiple definition of `CMOEAD::~CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: first defined here
+./moea.o: In function `~CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: multiple definition of `CMOEAD::~CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: first defined here
+./moea.o: In function `CMOEAD::init_population()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:74: multiple definition of `CMOEAD::init_population()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:74: first defined here
+./moea.o: In function `CMOEAD::update_reference(CIndividual&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:239: multiple definition of `CMOEAD::update_reference(CIndividual&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:239: first defined here
+./moea.o: In function `CMOEAD::operator=(CMOEAD const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:114: multiple definition of `CMOEAD::operator=(CMOEAD const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:114: first defined here
+./moea.o: In function `CMOEAD::init_neighbourhood()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:119: multiple definition of `CMOEAD::init_neighbourhood()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:119: first defined here
+./moea.o: In function `CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:147: multiple definition of `CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:147: first defined here
+./moea.o: In function `CMOEAD::comp_utility()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:173: multiple definition of `CMOEAD::comp_utility()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:173: first defined here
+./moea.o: In function `CMOEAD::update_problem(CIndividual&, int&, int&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:196: multiple definition of `CMOEAD::update_problem(CIndividual&, int&, int&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:196: first defined here
+./moea.o: In function `CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:250: multiple definition of `CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:250: first defined here
+./moea.o: In function `CMOEAD::evol_population()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:281: multiple definition of `CMOEAD::evol_population()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:281: first defined here
+./moea.o: In function `CMOEAD::exec_emo(int)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:329: multiple definition of `CMOEAD::exec_emo(int)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:329: first defined here
+./moea.o: In function `CMOEAD::save_front(char*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:387: multiple definition of `CMOEAD::save_front(char*)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:387: first defined here
+./moea.o: In function `CMOEAD::load_parameter()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:366: multiple definition of `CMOEAD::load_parameter()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:366: first defined here
+./moea.o: In function `CMOEAD::save_pos(char*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:401: multiple definition of `CMOEAD::save_pos(char*)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:401: first defined here
+collect2: ld returned 1 exit status
+make: *** [moead_cpp] Error 1
+13:34:22 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./CMOEADFD.o ./cec09.o ./moea.o   
+./moea.o: In function `rnd_uni(long*)':
+/usr/include/c++/4.4/new:101: multiple definition of `rnd_uni(long*)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:27: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/usr/include/c++/4.4/new:101: multiple definition of `nvar'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:27: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/usr/include/c++/4.4/new:101: multiple definition of `nobj'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:27: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:35: multiple definition of `lowBound'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:35: first defined here
+./moea.o:(.data+0x0): multiple definition of `uppBound'
+./CMOEADFD.o:(.data+0x0): first defined here
+./moea.o: In function `rnd_uni(long*)':
+(.bss+0x20): multiple definition of `strTestInstance'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:37: first defined here
+./moea.o:(.data+0x8): multiple definition of `seed'
+./CMOEADFD.o:(.data+0x8): first defined here
+./moea.o: In function `rnd_uni(long*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:47: multiple definition of `rnd_uni_init'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:47: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:49: multiple definition of `idealpoint'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:49: first defined here
+./moea.o: In function `rnd_uni(long*)':
+/usr/include/c++/4.4/bits/vector.tcc:321: multiple definition of `scale'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../random.h:49: first defined here
+./moea.o:(.data+0xc): multiple definition of `etax'
+./CMOEADFD.o:(.data+0xc): first defined here
+./moea.o:(.data+0x10): multiple definition of `etam'
+./CMOEADFD.o:(.data+0x10): first defined here
+./moea.o: In function `CEC09_F2(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:19: multiple definition of `realx'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:19: first defined here
+./moea.o: In function `CEC09_F2(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:19: multiple definition of `realm'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:19: first defined here
+./moea.o:(.data+0x18): multiple definition of `realb'
+./CMOEADFD.o:(.data+0x18): first defined here
+./moea.o: In function `CEC09_F1(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:9: multiple definition of `CEC09_F1(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:9: first defined here
+./moea.o: In function `CEC09_F2(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:16: multiple definition of `CEC09_F2(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:16: first defined here
+./moea.o: In function `CEC09_F3(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:23: multiple definition of `CEC09_F3(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:23: first defined here
+./moea.o: In function `CEC09_F4(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:28: multiple definition of `CEC09_F4(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:28: first defined here
+./moea.o: In function `CEC09_F5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:35: multiple definition of `CEC09_F5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:35: first defined here
+./moea.o: In function `CEC09_F6(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:42: multiple definition of `CEC09_F6(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:42: first defined here
+./moea.o: In function `CEC09_F7(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:49: multiple definition of `CEC09_F7(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:49: first defined here
+./moea.o: In function `CEC09_F8(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:56: multiple definition of `CEC09_F8(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:56: first defined here
+./moea.o: In function `CEC09_F9(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:63: multiple definition of `CEC09_F9(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:63: first defined here
+./moea.o: In function `CEC09_F10(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:70: multiple definition of `CEC09_F10(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:70: first defined here
+./moea.o: In function `CEC09_R2_DTLZ2_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:80: multiple definition of `CEC09_R2_DTLZ2_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:80: first defined here
+./moea.o: In function `CEC09_R3_DTLZ3_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:92: multiple definition of `CEC09_R3_DTLZ3_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:92: first defined here
+./moea.o: In function `CEC09_WFG1_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:104: multiple definition of `CEC09_WFG1_M5(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../problem.h:104: first defined here
+./moea.o: In function `CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:28: multiple definition of `CIndividual::CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:28: first defined here
+./moea.o: In function `CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:28: multiple definition of `CIndividual::CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:28: first defined here
+./moea.o: In function `~CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: multiple definition of `CIndividual::~CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: first defined here
+./moea.o: In function `~CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: multiple definition of `CIndividual::~CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: first defined here
+./moea.o: In function `~CIndividual':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: multiple definition of `CIndividual::~CIndividual()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:35: first defined here
+./moea.o: In function `CIndividual::rnd_init()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:41: multiple definition of `CIndividual::rnd_init()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:41: first defined here
+./moea.o: In function `CIndividual::obj_eval()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:48: multiple definition of `CIndividual::obj_eval()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:48: first defined here
+./moea.o: In function `CIndividual::show_objective()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:69: multiple definition of `CIndividual::show_objective()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:69: first defined here
+./moea.o: In function `CIndividual::show_variable()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:76: multiple definition of `CIndividual::show_variable()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:76: first defined here
+./moea.o: In function `CIndividual::operator=(CIndividual const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:83: multiple definition of `CIndividual::operator=(CIndividual const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:83: first defined here
+./moea.o: In function `CIndividual::operator<(CIndividual const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:90: multiple definition of `CIndividual::operator<(CIndividual const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:90: first defined here
+./moea.o: In function `CIndividual::operator<<(CIndividual const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:102: multiple definition of `CIndividual::operator<<(CIndividual const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:102: first defined here
+./moea.o: In function `CIndividual::operator==(CIndividual const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:113: multiple definition of `CIndividual::operator==(CIndividual const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:113: first defined here
+./moea.o: In function `CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:139: multiple definition of `CSubproblem::CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:139: first defined here
+./moea.o: In function `CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:139: multiple definition of `CSubproblem::CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:139: first defined here
+./moea.o: In function `~CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: multiple definition of `CSubproblem::~CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: first defined here
+./moea.o: In function `~CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: multiple definition of `CSubproblem::~CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: first defined here
+./moea.o: In function `~CSubproblem':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: multiple definition of `CSubproblem::~CSubproblem()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:144: first defined here
+./moea.o: In function `CSubproblem::show()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:148: multiple definition of `CSubproblem::show()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:148: first defined here
+./moea.o: In function `CSubproblem::operator=(CSubproblem const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:157: multiple definition of `CSubproblem::operator=(CSubproblem const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../individual.h:157: first defined here
+./moea.o: In function `realmutation(CIndividual&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:9: multiple definition of `realmutation(CIndividual&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:9: first defined here
+./moea.o: In function `real_sbx_xoverB(CIndividual&, CIndividual&, CIndividual&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:147: multiple definition of `real_sbx_xoverB(CIndividual&, CIndividual&, CIndividual&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:147: first defined here
+./moea.o: In function `diff_evo_xoverA(CIndividual&, CIndividual&, CIndividual&, CIndividual&, CIndividual&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:236: multiple definition of `diff_evo_xoverA(CIndividual&, CIndividual&, CIndividual&, CIndividual&, CIndividual&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:236: first defined here
+./moea.o: In function `diff_evo_xoverB(CIndividual&, CIndividual&, CIndividual&, CIndividual&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:257: multiple definition of `diff_evo_xoverB(CIndividual&, CIndividual&, CIndividual&, CIndividual&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:257: first defined here
+./moea.o: In function `diff_evo_xoverC(CIndividual&, CIndividual&, CIndividual&, std::vector<double, std::allocator<double> >&, CIndividual&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:295: multiple definition of `diff_evo_xoverC(CIndividual&, CIndividual&, CIndividual&, std::vector<double, std::allocator<double> >&, CIndividual&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../recomb.h:295: first defined here
+./moea.o: In function `minfastsort(std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >&, int, int)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:7: multiple definition of `minfastsort(std::vector<double, std::allocator<double> >&, std::vector<int, std::allocator<int> >&, int, int)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:7: first defined here
+./moea.o: In function `dist_vector(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:25: multiple definition of `dist_vector(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:25: first defined here
+./moea.o: In function `dominate(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, double)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:34: multiple definition of `dominate(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&, double)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:34: first defined here
+./moea.o: In function `fitnessfunction(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:47: multiple definition of `fitnessfunction(std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:47: first defined here
+./moea.o: In function `load_data(char*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&, int)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:67: multiple definition of `load_data(char*, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&, int)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:67: first defined here
+./moea.o: In function `permutation(std::vector<int, std::allocator<int> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:85: multiple definition of `permutation(std::vector<int, std::allocator<int> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../common.h:85: first defined here
+./moea.o: In function `CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:56: multiple definition of `CMOEAD::CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:56: first defined here
+./moea.o: In function `CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:56: multiple definition of `CMOEAD::CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:56: first defined here
+./moea.o: In function `~CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: multiple definition of `CMOEAD::~CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: first defined here
+./moea.o: In function `~CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: multiple definition of `CMOEAD::~CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: first defined here
+./moea.o: In function `~CMOEAD':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: multiple definition of `CMOEAD::~CMOEAD()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:68: first defined here
+./moea.o: In function `CMOEAD::init_population()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:74: multiple definition of `CMOEAD::init_population()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:74: first defined here
+./moea.o: In function `CMOEAD::update_reference(CIndividual&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:239: multiple definition of `CMOEAD::update_reference(CIndividual&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:239: first defined here
+./moea.o: In function `CMOEAD::operator=(CMOEAD const&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:114: multiple definition of `CMOEAD::operator=(CMOEAD const&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:114: first defined here
+./moea.o: In function `CMOEAD::init_neighbourhood()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:119: multiple definition of `CMOEAD::init_neighbourhood()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:119: first defined here
+./moea.o: In function `CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:147: multiple definition of `CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:147: first defined here
+./moea.o: In function `CMOEAD::comp_utility()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:173: multiple definition of `CMOEAD::comp_utility()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:173: first defined here
+./moea.o: In function `CMOEAD::update_problem(CIndividual&, int&, int&)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:196: multiple definition of `CMOEAD::update_problem(CIndividual&, int&, int&)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:196: first defined here
+./moea.o: In function `CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:250: multiple definition of `CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:250: first defined here
+./moea.o: In function `CMOEAD::evol_population()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:281: multiple definition of `CMOEAD::evol_population()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:281: first defined here
+./moea.o: In function `CMOEAD::exec_emo(int)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:329: multiple definition of `CMOEAD::exec_emo(int)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:329: first defined here
+./moea.o: In function `CMOEAD::save_front(char*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:387: multiple definition of `CMOEAD::save_front(char*)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:387: first defined here
+./moea.o: In function `CMOEAD::load_parameter()':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:366: multiple definition of `CMOEAD::load_parameter()'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:366: first defined here
+./moea.o: In function `CMOEAD::save_pos(char*)':
+/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:401: multiple definition of `CMOEAD::save_pos(char*)'
+./CMOEADFD.o:/home/abdul/Desktop/MOEAD source/moead_cec2009_2011version/moead_cec2009_20110505/moead_cpp/Debug/../algorithm.h:401: first defined here
+collect2: ld returned 1 exit status
+make: *** [moead_cpp] Error 1
+13:41:50 **** Clean-only build of configuration Debug for project moead_cpp ****
+make clean 
+rm -rf  ./CMOEADFD.o ./cec09.o ./moea.o  ./CMOEADFD.d ./cec09.d ./moea.d  moead_cpp
+ 
+13:42:02 **** Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../cec09.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"cec09.d" -MT"cec09.o" -o "cec09.o" "../cec09.cpp"
+../cec09.cpp: In function ‘void CEC09::R2_DTLZ2_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:662: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:667: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:669: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:678: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:680: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:688: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:691: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:711: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:716: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:719: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:725: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:743: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:619: warning: unused variable ‘sum’
+../cec09.cpp: In function ‘void CEC09::R3_DTLZ3_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:795: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:800: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:802: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:811: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:813: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:821: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:824: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:844: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:849: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:852: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:858: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:876: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:751: warning: unused variable ‘sum’
+../cec09.cpp: In function ‘void CEC09::WFG1_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:1107: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1116: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1128: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1134: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1146: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1151: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1164: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1178: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1182: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1192: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1198: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1203: warning: comparison between signed and unsigned integer expressions
+Finished building: ../cec09.cpp
+ 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+../moea.cpp:27:22: error: CMOEADFD.h: No such file or directory
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+make: *** [moea.o] Error 1
+13:42:35 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+13:42:44 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+make: Nothing to be done for `all'.
+13:45:07 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+make: Nothing to be done for `all'.
+13:52:03 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: At global scope:
+../algorithm.h:426: error: ISO C++ forbids initialization of member ‘A’
+../algorithm.h:426: error: making ‘A’ static
+../algorithm.h:426: error: ISO C++ forbids in-class initialization of non-const static member ‘A’
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:465: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:515: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:517: error: invalid initialization of reference of type ‘CIndividual&’ from expression of type ‘CSubproblem’
+make: *** [moea.o] Error 1
+13:52:52 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: At global scope:
+../algorithm.h:426: error: ISO C++ forbids in-class initialization of non-const static member ‘A’
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:465: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:515: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:517: error: invalid initialization of reference of type ‘CIndividual&’ from expression of type ‘CSubproblem’
+make: *** [moea.o] Error 1
+13:53:23 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: At global scope:
+../algorithm.h:426: error: ISO C++ forbids initialization of member ‘A’
+../algorithm.h:426: error: making ‘A’ static
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:465: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:515: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:517: error: invalid initialization of reference of type ‘CIndividual&’ from expression of type ‘CSubproblem’
+make: *** [moea.o] Error 1
+13:57:58 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:470: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:520: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+13:58:07 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+make: Nothing to be done for `all'.
+14:05:25 **** Clean-only build of configuration Debug for project moead_cpp ****
+make clean 
+rm -rf  ./cec09.o ./moea.o  ./cec09.d ./moea.d  moead_cpp
+ 
+14:05:39 **** Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../cec09.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"cec09.d" -MT"cec09.o" -o "cec09.o" "../cec09.cpp"
+../cec09.cpp: In function ‘void CEC09::R2_DTLZ2_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:662: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:667: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:669: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:678: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:680: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:688: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:691: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:711: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:716: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:719: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:725: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:743: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:619: warning: unused variable ‘sum’
+../cec09.cpp: In function ‘void CEC09::R3_DTLZ3_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:795: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:800: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:802: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:811: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:813: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:821: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:824: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:844: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:849: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:852: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:858: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:876: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:751: warning: unused variable ‘sum’
+../cec09.cpp: In function ‘void CEC09::WFG1_M5(double*, double*, unsigned int, unsigned int)’:
+../cec09.cpp:1107: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1116: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1128: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1134: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1146: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1151: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1164: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1178: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1182: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1192: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1198: warning: comparison between signed and unsigned integer expressions
+../cec09.cpp:1203: warning: comparison between signed and unsigned integer expressions
+Finished building: ../cec09.cpp
+ 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+14:05:46 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+make: Nothing to be done for `all'.
+14:08:17 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+14:28:15 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+14:51:41 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+14:51:44 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+make: Nothing to be done for `all'.
+15:20:49 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+16:52:42 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:523: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:541: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘double’
+../algorithm.h:547: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘double’
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+16:55:44 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘size_t’
+../algorithm.h:523: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+17:12:26 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘size_t’
+../algorithm.h:523: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEADFD::update_problem(CIndividual&, int&, int&, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:574: warning: format ‘%d’ expects type ‘int’, but argument 3 has type ‘double’
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+17:12:33 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+make: Nothing to be done for `all'.
+17:13:58 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘size_t’
+../algorithm.h:523: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+17:18:29 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:521: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘size_t’
+../algorithm.h:523: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+17:18:55 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:522: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+16:18:36 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:522: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+16:22:25 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:522: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+17:04:27 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:471: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:522: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+17:37:04 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:478: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:529: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 

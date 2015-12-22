@@ -1,0 +1,19 @@
+/*
+ * CMOEADFD.h
+ *
+ *  Created on: Dec 17, 2015
+ *      Author: abdul
+ */
+
+#ifndef CMOEADFD_H_
+#define CMOEADFD_H_
+
+#include "algorithm.h"
+
+class CMOEADFD: public CMOEAD {
+public:
+	CMOEADFD();
+	virtual ~CMOEADFD();
+};
+
+#endif /* CMOEADFD_H_ */

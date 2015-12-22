@@ -1,0 +1,30 @@
+/*
+ * CMOEADFD.h
+ *
+ *  Created on: Dec 17, 2015
+ *      Author: abdul
+ */
+
+#ifndef CMOEADFD_H_
+#define CMOEADFD_H_
+
+#include "algorithm.h"
+
+class CMOEADFD: public CMOEAD {
+
+public:
+
+	CMOEADFD();
+	virtual ~CMOEADFD();
+
+public:
+	  double tau;       // domination threshold
+      int A  = 50;      // fuzzy function decay constant
+	  double mu_ij[]; // fuzzy i-dominance
+	  double mu_j[]; // fuzzy dominance, max size can be size of pop
+
+	  //int maxGen; // max generation required for calc of tau, maxGen=Max-NFE/Popsize -1
+
+};
+
+#endif /* CMOEADFD_H_ */

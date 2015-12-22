@@ -1,0 +1,38 @@
+17:37:04 **** Incremental Build of configuration Debug for project moead_cpp ****
+make all 
+Building file: ../moea.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"moea.d" -MT"moea.o" -o "moea.o" "../moea.cpp"
+In file included from ../recomb.h:5,
+                 from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../individual.h: In member function ‘void CSubproblem::show()’:
+../individual.h:149: warning: comparison between signed and unsigned integer expressions
+In file included from ../algorithm.h:6,
+                 from ../moea.cpp:25:
+../recomb.h: In function ‘void realmutation(CIndividual&, double)’:
+../recomb.h:14: warning: unused variable ‘id_rnd’
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEAD::tour_selection(int, std::vector<int, std::allocator<int> >&)’:
+../algorithm.h:153: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::comp_utility()’:
+../algorithm.h:174: warning: unused variable ‘uti’
+../algorithm.h: In member function ‘void CMOEAD::mate_selection(std::vector<int, std::allocator<int> >&, int, int, int)’:
+../algorithm.h:256: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:267: warning: comparison between signed and unsigned integer expressions
+../algorithm.h: In member function ‘void CMOEAD::evol_population()’:
+../algorithm.h:290: warning: comparison between signed and unsigned integer expressions
+In file included from ../moea.cpp:25:
+../algorithm.h: In member function ‘void CMOEADFD::evol_population()’:
+../algorithm.h:478: warning: comparison between signed and unsigned integer expressions
+../algorithm.h:529: warning: comparison between signed and unsigned integer expressions
+Finished building: ../moea.cpp
+ 
+Building target: moead_cpp
+Invoking: Cross G++ Linker
+g++  -o "moead_cpp"  ./cec09.o ./moea.o   
+Finished building target: moead_cpp
+ 
+
+17:37:05 Build Finished (took 982ms)
+
